@@ -1,4 +1,4 @@
-import mongoose from "mongoose"
+import mongoose from "mongoose";
 const DATABASE_URL =
   "mongodb+srv://leulm333:wizkhalifa@grocery.bctp67g.mongodb.net/?retryWrites=true&w=majority"
 
