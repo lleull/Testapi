@@ -1,6 +1,6 @@
 const express = require("express")
 const app = express()
-
+import connectmonogo from "./mongo"
 const Port= 3000
 
 
@@ -14,3 +14,4 @@ app.get("/test", (req, res) => {
 app.listen(Port, () => {
     console.log(`Our Server has started on ${Port}`)
 })
+connectmonogo()
